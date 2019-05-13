@@ -11,4 +11,8 @@ $id =$row['apps'];
 }
 
 
-$sql ="INSERT INTO mdm ('apps','estado') VALUES ($id);";
+
+
+
+
+$sql="INSERT INTO list_app ('usuario', 'drive', 'skype', 'hangoust', 'maps', 'remote', 'gmail', 'keep', 'fotos') VALUES ('dsfsddfa', '0', '0', '0', '0', '0', '0', '0', '0');";
