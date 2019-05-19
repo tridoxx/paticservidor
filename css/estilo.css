@@ -64,18 +64,12 @@ textarea {
 }
 
 font {
-
   font-size: 25px;
 }
-
-
-
 
 footer {
   height: 140%;
 }
-
-
 
 input[type=text], select {
     width: 100%;
@@ -122,10 +116,9 @@ input[type=password ], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=submit] {
-    
+input[type=submit] {    
     display:inline;
-        margin: 0.5em;
+    margin: 0.5em;
     padding: 0.7em 1.1em;
     outline: none;
     border: 3px solid rgba(0,0,0,0.3);
@@ -144,13 +137,12 @@ input[type=submit]:hover {
 
 .button1{
     display:inline;
-        margin: 0.5em;
+    margin: 0.5em;
     padding: 0.7em 1.1em;
     outline: none;
-      background-color: #45a049;
-       color: rgba(0,0,0,0.3);
-    border: 3px solid rgba(0,0,0,0.3);
- 
+    background-color: #45a049;
+    color: rgba(0,0,0,0.3);
+    border: 3px solid rgba(0,0,0,0.3); 
     text-decoration: none;
     font-weight: 700;
     opacity: 1;
@@ -159,18 +151,17 @@ input[type=submit]:hover {
 }
 
 .button1:hover {
-          background-color: gray;
-  
+    background-color: gray;
+}  
 
 div {
-    border-radius: 5px;
-   
+    border-radius: 5px;   
     padding: 20px;
 }
 
-table-layout: {
+table-layout {
     word-wrap: break-word;
-        word-break:break-all;
+    word-break:break-all;
 }
 
 
