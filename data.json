@@ -1,18 +1,12 @@
-
 {
-
-			"usaurio": "correo",
-            "Google Drive":	true,
-            "Skype"	:		true,
-            "Hangouts":		true,
-            "Maps"	:		true,
-            "Gmail"	:		true,
-            "Google Keep":	true,
-            "Fotos"	:		false
-
-            
-        
-
+	"usaurio": "correo",
+    "Google Drive":	true,
+    "Skype"	:		true,
+    "Hangouts":		true,
+    "Maps"	:		true,
+    "Gmail"	:		true,
+    "Google Keep":	true,
+    "Fotos"	:		false
 }
 
 

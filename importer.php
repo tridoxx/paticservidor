@@ -1,5 +1,8 @@
-<?php 
-$json=file_get_contents('data.json');
+<?php
+$dato = htmlspecialchars($_POST['data']);
+$info = $_POST['info'];
+echo $dato."\n".$info;
+/*$json=file_get_contents('data.json');
 
 #print_r($json)
 
@@ -10,9 +13,6 @@ foreach ($data as $row ) {
 $id =$row['apps'];
 }
 
-
-
-
-
-
 $sql="INSERT INTO list_app ('usuario', 'drive', 'skype', 'hangoust', 'maps', 'remote', 'gmail', 'keep', 'fotos') VALUES ('dsfsddfa', '0', '0', '0', '0', '0', '0', '0', '0');";
+*/
+?>
